@@ -1,6 +1,7 @@
 # TIL(Today - I - Learned)
 
 ### 오늘 하루 배우고 공부한 내용을 저장하는 공간입니다.         
+
 <br/>
 
 
@@ -13,49 +14,17 @@
 
 #### Class함수 
 
--   ##### `.toggleClass(className [,상태])` 메서드   
-
--   ##### `.hasClass(className)` 메서드
-
-    ##### `.removeClass([className])` 메서드
-
--   ##### `.addClass(className)`메서드
-
 <br/>
 
 #### 요소 위치 변경 메서드
-
--   ##### replaceWith() 와 replaceAll ()차이점 
-
--   ##### `.replaceWith(newContent)`메서드
-
--   ##### `.replaceAll(target)` 메서드
 
 <br/>
 
 #### 요소 추가 및 텍스트 추가
 
--   ##### `.html( [ htmlString ] )`  메서드
-
--   ##### `.text( [ text ] )` 메서드
-
--   ##### `.prepend( content [ , content ] )`메서드
-
--   ##### `.appendto(대상)`와 `대상.append(content[,content])`메서드 차이
-
--   ##### `.after(content[,content])`와 `.insertafter(target)`메서드 차이
-
--   ##### `		.before(content[,content])` 와 `.insertbefore(target)`메서드 차이
-
 <br/>
 
 #### HTML로 감싸는 메서드
-
--   ##### `wrap( wrappingElement )` 과 `unwrap( [selector] )`메서드
-
--   ##### `.wrapinner( wrappingElement )`메서드
-
--   ##### `.wrapall( wrappingElement )` 메서드
 
 <br/>
 
@@ -69,12 +38,6 @@
 
 #### javascript  Timing Events(자바 타이밍 이벤트)
 
--   ##### **`setTimeout( function , milliseconds )`**
-
--   **`setInterval( function , milliseconds )`**
-
--   **`clearInterval()`**
-
 <br/>
 
 ## Servlet
@@ -82,8 +45,6 @@
 #### Model, View, Controller
 
 <br/><br/>
-
-## 
 
 ## 2020-06-27  
 
