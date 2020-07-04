@@ -40,7 +40,7 @@
 
 <br/>
 
-## [20200619](https://github.com/shm1113/TIL/blob/master/20200619.md)
+## [2020-06-19](https://github.com/shm1113/TIL/blob/master/20200619.md)
 
 ### [jQuery]
 
@@ -60,7 +60,7 @@
 
 </br>
 
-## [20200622](https://github.com/shm1113/TIL/blob/master/20200622.md)
+## [2020-06-22](https://github.com/shm1113/TIL/blob/master/20200622.md)
 
 ### [JSP/Servlet]
 
@@ -82,7 +82,7 @@
 
 </br>
 
-## [20200623](https://github.com/shm1113/TIL/blob/master/20200623.md)
+## [2020-06-23](https://github.com/shm1113/TIL/blob/master/20200623.md)
 
 ### [JDBC]
 
@@ -185,4 +185,134 @@
     -   ###### `pageContext.forward()`
 
     -   ###### `response.sendRedirect("boardwrite.jsp")`
+
+## [2020-06-29](https://github.com/shm1113/TIL/blob/master/20200629.md)
+
+### [JSP/Servlet]
+
+-   ##### Servlet
+
+    -   ###### Servlet이란 
+
+    -   ###### ServletContainer란
+
+-   ##### HttpServlet
+
+-   ##### Request와 Response
+
+-   ##### forward와 sendRedirect의 차이
+
+-   ##### Session
+
+</br>
+
+## [2020-07-01](https://github.com/shm1113/TIL/blob/master/20200701.md)
+
+</br>
+
+
+
+### [Servlet]
+
+###### 📖request객체는 목적으로 정한 controller까지이지만 forward해준경우에는 request객체를 공유해서 상관이 없다.
+
+###### 📖 application객체가 null뜨는경우가 있다(오류)
+
+###### 📖client의 요청은 일단 무조건 서버로 가게 되어있다
+
+###### 📖controller에서 다른 jsp가 응답되려면 forward가 되던지 redirect가 되던지 둘중 하나가 되어야한다
+
+###### 📖 Tomcat은 Web Server의 역할과 Web Application Server의 역할을 둘 다 할 수 있다
+
+
+
+-   ##### Client의 request객체에 대한이해
+
+-   ##### insert시 dispatch.forward()할 경우 문제 발생
+
+-   ##### forward()두가지
+
+    -   ###### Servlet에서
+
+    -   ###### JSP에서 
+
+-   ##### Servlet &#10071;
+
+    -   ###### Servlet이란
+
+    -   ###### ServletContainer란
+
+-   ##### Wire Shark
+
+-   ###### RequestDispatcher클래스_1(뒤에 또 나옴)
+
+</br>
+
+## [2020-07-02](https://github.com/shm1113/TIL/blob/master/20200702.md)
+
+
+
+### [JSP/Servet]
+
+-   ##### JavaBean(자바빈)
+
+-   ##### EL
+
+-   ##### JSTL
+
+-   ##### tomcat 배포
+
+-   ##### JSP API
+
+</br>
+
+## [2020-07-03](https://github.com/shm1113/TIL/blob/master/20200703.md)
+
+### [복습]
+
+-   ##### EL(Expression Language)은 스크립틀릿으로 값을 가져오던방식을 간단하게 사용할 수 있게 하는것 이고 JSTL은 스크립틀릿안의 if문 for문 DB등의 자바 코드들을 태그로 사용할수 있게 한것이다
+
+-   ##### 📖 JSTL안에서는 <u>주석을 사용하면 안된다</u>
+
+    -   ###### JSTL은 JSP에 해당하고 <!--는 HTML에 해당하는데 JSTL이 먼저 작동하기 때문에 문제가 생긴다
+
+    -   ###### 다른 표현을 사용해야한다 ex) lt, gt..
+
+### [JSP/Servlet]
+
+-   ##### JSTL태그의 종류
+
+-   ##### TDD(IT관련지식.md에서 추가 공부)
+
+-   ##### JAVABean(자바빈)&#10071;(내용다름)
+
+</br>
+
+## [2020-07-04](https://github.com/shm1113/TIL/blob/master/20200704.md)
+
+### [ JSP/Servlet]
+
+-   ##### response객체
+
+-   ##### 캐시(cache)없애는 법
+
+-   ##### Get방식과 Post방식
+
+-   ##### 쿠키, 세션, 캐시(IT관련지식.md에 추가)
+
+-   ##### 서블릿 맵핑
+
+    -   ###### @어노테이션
+
+    -   ###### web.xml
+
+-   ##### 서블릿 메소드
+
+    -   ###### init()
+
+    -   ###### service()
+
+    -   ###### destroy
+
+</br>
 
